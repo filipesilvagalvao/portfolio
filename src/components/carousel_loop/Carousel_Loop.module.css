@@ -1,0 +1,41 @@
+.carousel{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+    mask: linear-gradient(to right, transparent, #f0f0f0 15%, #f0f0f0 85%, transparent);
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 40s infinite linear;
+    padding-right: 1em;
+}
+
+.card{
+    flex: 0 0 5em;
+    opacity: 0.7;
+    padding: 1em;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+    img{
+        width: min(180px,25vw);
+        height: 100%;
+    }
+}
+
+@keyframes spin {
+    from{
+        translate:0;
+    }
+    to{
+        translate:-100%;
+    }
+}
