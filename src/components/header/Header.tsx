@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className={styles.header}>
         <div className={styles.header__container}>
-            <h1 className={styles.header__logo}>Filipe DEV</h1>
+            <h1 className={styles.header__logo}><Link href="/">Filipe DEV</Link></h1>
 
             <input type="checkbox" id="hamburguer" className={styles.header__checkbox}/>
             <label htmlFor="hamburguer" className={styles.header__label}>

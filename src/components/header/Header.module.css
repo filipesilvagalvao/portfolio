@@ -6,6 +6,12 @@
     z-index: 1;
 }
 
+.header__logo{
+    a{
+        font-family: var(--font-expanded-heavy), sans-serif;
+    }
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
