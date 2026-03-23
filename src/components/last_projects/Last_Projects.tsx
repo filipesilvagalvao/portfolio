@@ -24,7 +24,7 @@ function Last_Projects() {
           title="Letícia Barcelo Estética"
           laptop="/mockup_devices/leticia_barcelos/laptop.png"
           mobile="/mockup_devices/leticia_barcelos/mobile.png"
-          link="https://leticia-barcelos.vercel.app/"
+          link="https://leticiabarcelosestetica.com/"
         />
 
         <Card
