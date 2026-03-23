@@ -33,6 +33,13 @@ function Last_Projects() {
           mobile="/mockup_devices/loja_tenis/mobile.png"
           link="https://landing-page-tenis-cjkg.vercel.app/"
         />
+
+        <Card
+          title="Curso Social Media"
+          laptop="/mockup_devices/curso_social_media/laptop.png"
+          mobile="/mockup_devices/curso_social_media/mobile.png"
+          link="https://curso-social-media.vercel.app/"
+        />
       </div>
     </section>
   )
