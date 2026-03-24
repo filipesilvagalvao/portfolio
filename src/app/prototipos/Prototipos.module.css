@@ -1,0 +1,13 @@
+.prototipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 100dvh;
+}
+
+.prototipos__title{
+    font-family: var(--font-expanded-heavy), sans-serif;
+    font-size: min(3rem, 10vw);
+}

@@ -16,8 +16,8 @@ function Header() {
 
             <nav className={styles.header__nav}>
                 <Link href="/">Home</Link>
-                <Link href="#about">Sobre</Link>
-                <Link href="#last_projects">Projetos recentes</Link>
+                <Link href="/#about">Sobre</Link>
+                <Link href="/#last_projects">Projetos recentes</Link>
                 <Link href="/prototipos">Protótipos</Link>
                 <div className={styles.header__social}>
                     <a href="https://wa.me/+5537998743132?text=Ol%C3%A1%20Filipe%2C%20vim%20do%20seu%20portf%C3%B3lio.%20Tenho%20interesse%20em%20um%20projeto" target='_blank'><i className="fa-brands fa-whatsapp"></i></a>
